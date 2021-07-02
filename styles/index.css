@@ -47,11 +47,22 @@ hr {
   padding: 0;
 }
 
-.project {
-  border: 1px solid #fffff9;
-  flex-direction: column;
-  height: calc(100vw - 6rem);
-  padding: 4rem;
+@media (prefers-color-scheme: dark) {
+  .project {
+    border: 1px solid #fffff9;
+    flex-direction: column;
+    height: calc(100vw - 6rem);
+    padding: 4rem;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .project {
+    border: 1px solid #1b191f;
+    flex-direction: column;
+    height: calc(100vw - 6rem);
+    padding: 4rem;
+  }
 }
 
 .project-text {
