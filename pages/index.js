@@ -52,7 +52,7 @@ export default function Home() {
           <div className="project border-t p-3 py-6 gap-8 border-grey dark:border-white flex justify-between items-center">
             <p className="text-5xl">🎹</p>
             <div className="project-text mx-8 flex items-center">
-              <p className="project-title font-bold text-2xl flex items-center">POP Montreal</p><span className="mx-4">—</span><span className="font-normal text-2xl">Headless Wordpress, Next.js & GraphQL</span>
+              <p className="project-title font-bold text-2xl flex items-center">POP Montreal_WIP</p><span className="mx-4">—</span><span className="font-normal text-2xl">Headless Wordpress, Next.js & GraphQL</span>
             </div>
             <div className="project-arrow font-bold">&#10230;</div>
           </div>
@@ -79,7 +79,7 @@ export default function Home() {
           <div className="project border-t p-3 py-6 gap-8 border-grey dark:border-white flex justify-between items-center">
             <p className="text-5xl">🎸</p>
             <div className="project-text mx-8 flex items-center">
-              <p className="project-title font-bold text-2xl flex items-center">Evenko</p><span className="mx-4">—</span><span className="font-normal text-2xl">Laravel Nova, Laravel Blade, React</span>
+              <p className="project-title font-bold text-2xl flex items-center">Evenko_WIP</p><span className="mx-4">—</span><span className="font-normal text-2xl">Laravel Nova, Laravel Blade, React</span>
             </div>
             <div className="project-arrow font-bold">&#10230;</div>
           </div>
