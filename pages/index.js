@@ -35,9 +35,9 @@ export default function Home() {
       <br/>
       {
         locale === "en" ? (
-          <p>Currently working at <a href="https://www.plankdesign.com" target="_blank" rel="noopener noreferrer">Plank</a> as a front-end web developer. I have studied graphic design at UQÀM and sometimes work as a freelance graphic designer. I am passionate about UX design and accessibility. Below is a list of clients' and personal projects I have worked on over the years.</p>
+          <p>Currently working at <a href="https://www.plankdesign.com" target="_blank" rel="noopener noreferrer">Plank</a> as a front-end web developer. I have studied graphic design at UQÀM and sometimes work as a freelance graphic designer. I am passionate about UX design and accessibility. Below is a list personal and professional projects I have worked on over the years.</p>
         ) : (
-          <p>Travaille présentement chez <a href="https://www.plankdesign.com" target="_blank" rel="noopener noreferrer">Plank</a> comme développeur front-end. J'ai étudié en design graphique à l'UQÀM et je travaille occasionnellement comme designer graphique à mon compte. Je suis passionné par le design UX et l'accessibilité. Voici une liste de projets personnels et pour des clients sur lesquels j'ai travaillé au cours des dernières années.</p>
+          <p>Travaille présentement chez <a href="https://www.plankdesign.com" target="_blank" rel="noopener noreferrer">Plank</a> comme développeur front-end. J'ai étudié en design graphique à l'UQÀM et je travaille occasionnellement comme designer graphique à mon compte. Je suis passionné par le design UX et l'accessibilité. Voici une liste de projets personnels et professionnels sur lesquels j'ai travaillé au cours des dernières années.</p>
         )
       }
       <br/>
