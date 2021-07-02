@@ -12,6 +12,8 @@ export default function Home() {
         <title>Olivier Carignan</title>
         <meta name="description" content="the #1 source for Olivier Carignan content"/>
         <meta name="robots" content="all" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fffff9"/>
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b191f"/>
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>"/>
       </Head>
       <div className="header flex justify-between items-center">
