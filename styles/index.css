@@ -69,6 +69,7 @@ hr {
   .project {
     border-left: none;
     border-right: none;
+    border-bottom: none;
     flex-direction: row;
     height: auto;
     padding: 3rem 2rem;
