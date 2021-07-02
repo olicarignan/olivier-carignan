@@ -1,82 +1,99 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router';
+import Link from "next/link";
 
 export default function Home() {
+
+  const { locale } = useRouter();
+  
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="container mx-auto flex flex-col min-h-screen py-12 px-6">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Olivier Carignan</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>"/>
       </Head>
-
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
+      <div className="header flex justify-between items-center">
+        <h1 className="text-4xl">Olivier Carignan</h1>
+        <Link href="/" locale={locale === "en" ? "fr" : "en"}>
+          <a>
+            <p>
+              <a className="no-underline text-2xl" aria-label={locale === "en" ? "site en français" : "english site"}>
+                {locale === "en" ? "FR" : "EN"}
+              </a>
+            </p>
           </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
+        </Link>
+      </div>
+      <br/>
+      <p className="">{locale === "en" ? (
+        'Front-end Developer & UX / UI Designer'
+        ) : (
+          'Développeur Front-end & Designer UX / UI'
+        )}
         </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+      <p>Node / React / Next.js / Typescript / Blade</p>
+      <br/>
+      {
+        locale === "en" ? (
+          <p>Currently working at <a href="https://www.plankdesign.com" target="_blank" rel="noopener noreferrer">Plank</a> as a front-end web developer. I have studied graphic design at UQÀM and sometimes work as a freelance graphic designer. I am passionate about UX design and accessibility. Below is a list of clients' and personal projects I have worked on over the years.</p>
+        ) : (
+          <p>Travaille présentement chez <a href="https://www.plankdesign.com" target="_blank" rel="noopener noreferrer">Plank</a> comme développeur front-end. J'ai étudié en design graphique à l'UQÀM et je travaille occasionnellement comme designer graphique à mon compte. Je suis passionné par le design UX et l'accessibilité. Voici une liste de projets personnels et pour des clients sur lesquels j'ai travaillé au cours des dernières années.</p>
+        )
+      }
+      <br/>
+      <div className="flex">
+        <p><a className="font-medium text-3xl" href="mailto:olivier.carignan@hey.com" target="_blank" rel="noopener noreferrer" aria-label={locale === "en" ? "contact me" : "contactez-moi"}>contact</a></p>
+        <p><a href="https://github.com/olicarignan" className="font-medium text-3xl ml-8" target="_blank" rel="noopener noreferrer" aria-label="github">github</a></p>
+        <p><a href="https://www.linkedin.com/in/olivier-carignan/" className="font-medium text-3xl ml-8" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">linkedin</a></p>
+      </div>
+      <br/>
+      <div className="border-b border-grey dark:border-white">
+        <a href="https://popmontreal.com" target="_blank" rel="noopener noreferrer" aria-label="Pop montreal site">
+          <div className="project border-t p-3 py-6 gap-8 border-grey dark:border-white flex justify-between items-center">
+            <p className="text-5xl">🎹</p>
+            <div className="project-text mx-8 flex items-center">
+              <p className="project-title font-bold text-2xl flex items-center">POP Montreal</p><span className="mx-4">—</span><span className="font-normal text-2xl">Headless Wordpress & Next.js</span>
+            </div>
+            <div className="project-arrow font-bold">&#10230;</div>
+          </div>
         </a>
-      </footer>
+        <a href="https://pressbooks.com" target="_blank" rel="noopener noreferrer" aria-label="Pressbooks site">
+          <div className="project border-t p-3 py-6 gap-8 border-grey dark:border-white flex justify-between items-center">
+            <p className="text-5xl">📕</p>
+            <div className="project-text mx-8 flex items-center">
+              <p className="project-title font-bold text-2xl flex items-center">Pressbooks</p><span className="mx-4">—</span><span className="font-normal text-2xl">{locale === "en" ? "Made almost entirely using Gutenberg blocks" : "Fait presque exclusivement avec les blocks Gutenberg"}</span>
+            </div>
+            <div className="project-arrow font-bold">&#10230;</div>
+          </div>
+        </a>
+        <a href="https://plankdesign.com" target="_blank" rel="noopener noreferrer" aria-label="Plank site">
+          <div className="project border-t p-3 py-6 gap-8 border-grey dark:border-white flex justify-between items-center">
+            <p className="text-5xl">🌱</p>
+            <div className="project-text mx-8 flex items-center">
+              <p className="project-title font-bold text-2xl flex items-center">Plank</p><span className="mx-4">—</span><span className="font-normal text-2xl">{locale === "en" ? "Wordpress CMS" : "CMS Wordpress"}</span>
+            </div>
+            <div className="project-arrow font-bold">&#10230;</div>
+          </div>
+        </a>
+        <a href="https://evenko.ca" target="_blank" rel="noopener noreferrer" aria-label="Evenko site">
+          <div className="project border-t p-3 py-6 gap-8 border-grey dark:border-white flex justify-between items-center">
+            <p className="text-5xl">🎸</p>
+            <div className="project-text mx-8 flex items-center">
+              <p className="project-title font-bold text-2xl flex items-center">Evenko</p><span className="mx-4">—</span><span className="font-normal text-2xl">Laravel Nova, Laravel Blade, React</span>
+            </div>
+            <div className="project-arrow font-bold">&#10230;</div>
+          </div>
+        </a>
+        <a href="https://github.com/olicarignan/inSight" target="_blank" rel="noopener noreferrer" aria-label="Evenko site">
+          <div className="project border-t p-3 py-6 gap-8 border-grey dark:border-white flex justify-between items-center">
+            <p className="text-5xl">📅</p>
+            <div className="project-text mx-8 flex items-center">
+              <p className="project-title font-bold text-2xl flex items-center">inSight</p><span className="mx-4">—</span><span className="font-normal text-2xl">React, Node, Express</span>
+            </div>
+            <div className="project-arrow font-bold">&#10230;</div>
+          </div>
+        </a>
+      </div>
     </div>
-  )
+  );
 }
