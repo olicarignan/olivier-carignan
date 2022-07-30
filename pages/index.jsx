@@ -10,7 +10,7 @@ export default function Home() {
   const projects = [
     {
       title: "Big tech NDA project",
-      description: "React, Laravel, GSAP",
+      description: "React, Typescript, Laravel, GSAP",
       url: null,
       icon: "💻"
     },
