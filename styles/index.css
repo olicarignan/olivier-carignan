@@ -4,9 +4,22 @@
 
 @tailwind utilities;
 
+@font-face {
+  font-family: "Inter Bold";
+  src: url("../assets/fonts/Inter-Bold.otf");
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  src: url("../assets/fonts/Inter-Medium.otf");
+}
+
+p {
+  font-weight: 500;
+}
+
 p a {
-    font-weight: bold;
-    text-decoration: underline;
+    font-weight: 900;
 }
 
 .ascii-art {
@@ -14,9 +27,8 @@ p a {
     white-space: pre;
 }
 
-::selection {
-  background-color: transparent;
-  color: blue;
+a {
+  transition: 0.2s ease-in;
 }
 
 html,
@@ -53,6 +65,22 @@ hr {
     flex-direction: column;
     height: calc(100vw - 6rem);
     padding: 4rem;
+    transition: 0.2s ease-in;
+  }
+
+  .project:hover {
+    color: blue;
+    transition: 0.2s ease-in;
+  }
+
+  ::selection {
+    background-color: transparent;
+    color: blue;
+  }
+
+  a:hover {
+    color: blue;
+    transition: 0.2s ease-in;
   }
 }
 
@@ -62,6 +90,22 @@ hr {
     flex-direction: column;
     height: calc(100vw - 6rem);
     padding: 4rem;
+    transition: 0.2s ease-in;
+  }
+
+  .project:hover {
+    color: red;
+    transition: 0.2s ease-in;
+  }
+
+  ::selection {
+    background-color: transparent;
+    color: red;
+  }
+
+  a:hover {
+    color: red;
+    transition: 0.2s ease-in;
   }
 }
 
@@ -75,6 +119,10 @@ hr {
   align-items: center;
 }
 
+.line {
+  display: none
+}
+
 @media only screen and (min-width: 767px) {
 
   .project {
@@ -83,10 +131,18 @@ hr {
     border-bottom: none;
     flex-direction: row;
     height: auto;
-    padding: 3rem 2rem;
+    padding: 1rem 1rem;
   }
 
   .project-text {
     flex-direction: row
+  }
+
+  .project-title {
+    font-size: 1.5rem
+  }
+
+  .line {
+    display: block
   }
 }

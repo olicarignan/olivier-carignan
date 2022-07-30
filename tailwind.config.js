@@ -10,7 +10,8 @@ module.exports = {
       white: "#fffff9",
     },
     fontFamily: {
-      sans: ["sans-serif"],
+      inter: ["Inter Regular"],
+      interBold: ["Inter Bold"],
     },
   },
   variants: {
