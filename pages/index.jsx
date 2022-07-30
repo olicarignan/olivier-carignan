@@ -33,7 +33,7 @@ export default function Home() {
       <br/>
       <p className="">{currentLanguage.intro}
         </p>
-      <p>Node / React / Next.js / Typescript / Laravel</p>
+      <p>Node / React / Next.js / Typescript / SCSS / Laravel</p>
       <br/>
       {currentLanguage.description}
       <br/>
