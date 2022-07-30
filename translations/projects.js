@@ -1,7 +1,7 @@
 const projects = {
     en: [
         {
-          title: "Big tech NDA project",
+          title: "Large Tech Company (under NDA)",
           description: "React, Typescript, Laravel, GSAP",
           url: null,
           icon: "💻"
@@ -45,7 +45,7 @@ const projects = {
     ],
     fr: [
         {
-          title: "Big tech NDA project",
+          title: "Grande compagnie d'éléctronique (sous NDA)",
           description: "React, Typescript, Laravel, GSAP",
           url: null,
           icon: "💻"

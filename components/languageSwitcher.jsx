@@ -1,12 +1,12 @@
 import Link from "next/link"
 
-export default function LanguageSwitcher({locale}) {
+export default function LanguageSwitcher({locale, text}) {
 
     return (
-        <Link href="/" locale={locale === "en" ? "fr" : "en"}>
-            <a aria-label={locale === "en" ? "site en français" : "english site"}>
+        <Link href="/" locale={text.locale}>
+            <a aria-label={text.localeAria}>
                 <p className="text-2xl">
-                    {locale === "en" ? "FR" : "EN"}
+                    {text.localeCap}
                 </p>
             </a>
         </Link>

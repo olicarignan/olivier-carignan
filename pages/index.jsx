@@ -9,6 +9,9 @@ export default function Home() {
 
   const { locale } = useRouter();
 
+  const currentLanguage = text[locale];
+  const translatedProjects = projects[locale];
+
   return (
     <div className="container mx-auto flex flex-col min-h-screen py-12 px-6">
       <Head>
@@ -25,14 +28,14 @@ export default function Home() {
       </Head>
       <div className="header flex justify-between items-center">
         <h1 className="text-4xl font-interBold">Olivier Carignan</h1>
-        <LanguageSwitcher locale={locale} />
+        <LanguageSwitcher locale={locale} text={currentLanguage}/>
       </div>
       <br/>
-      <p className="">{text[locale].intro}
+      <p className="">{currentLanguage.intro}
         </p>
       <p>Node / React / Next.js / Typescript / Laravel</p>
       <br/>
-      {text[locale].description}
+      {currentLanguage.description}
       <br/>
       <div className="flex">
         <p><a className="font-medium text-2xl" href="mailto:olivier.carignan@hey.com" target="_blank" rel="noopener noreferrer" aria-label={locale === "en" ? "contact me" : "contactez-moi"}>contact</a></p>
@@ -41,7 +44,7 @@ export default function Home() {
       </div>
       <br/>
       <div className="border-b border-grey dark:border-white">
-        { projects[locale].map((project) => <Card props={project} /> ) }
+        { translatedProjects.map((project) => <Card props={project} /> ) }
       </div>
     </div>
   );
