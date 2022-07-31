@@ -16,7 +16,7 @@ const text = {
         intro: "Développeur Front-end & Designer UX",
         description: (
         <p>Travaille présentement chez <a className="font-interBold" href="https://www.plank.co" target="_blank" rel="noopener noreferrer">Plank</a> comme développeur front-end intermédiaire.
-        Je me spécialise à écrire du code réutilisable en suivant des standards exceptionnels de design UX et d'accessibilité.
+        Ma spécialité est écrire du code réutilisable en suivant les plus hauts standards de design UX et d'accessibilité.
         J'adore travailler sur la logique "back-of-the-front-end" et j'ai beaucoup d'expérience à construire des sites avec des styles personnalisés, incluant des micro-interactions et des animations SVG.
         J'ai auparavant étudié en design graphique à l'UQÀM et je travaille encore occasionnellement comme designer graphique à mon compte.
         Voici une sélection de projets personnels et professionnels sur lesquels j'ai travaillé au cours des dernières années.</p>
