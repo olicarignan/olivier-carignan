@@ -38,7 +38,7 @@ export default function Home() {
       {currentLanguage.description}
       <br/>
       <div className="flex">
-        <p><a className="font-medium text-2xl" href="mailto:olivier.carignan@hey.com" target="_blank" rel="noopener noreferrer" aria-label={locale === "en" ? "contact me" : "contactez-moi"}>contact</a></p>
+        <p><a className="font-medium text-2xl" href="mailto:hey@olividercarignan.dev" target="_blank" rel="noopener noreferrer" aria-label={locale === "en" ? "contact me" : "contactez-moi"}>contact</a></p>
         <p><a href="https://github.com/olicarignan" className="font-medium text-2xl ml-8" target="_blank" rel="noopener noreferrer" aria-label="github">github</a></p>
         <p><a href="https://www.linkedin.com/in/olivier-carignan/" className="font-medium text-2xl ml-8" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">linkedin</a></p>
       </div>
