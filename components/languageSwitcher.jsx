@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function LanguageSwitcher({locale, text}) {
+export default function LanguageSwitcher({text}) {
 
     return (
         <Link href="/" locale={text.locale}>
