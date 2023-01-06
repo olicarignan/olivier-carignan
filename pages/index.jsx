@@ -46,11 +46,13 @@ export default function Home() {
           </div>
           <br/>
           <div className="border-b border-grey dark:border-white">
-            { translatedProjects.map((project) => <Card props={project} />) }
+            { translatedProjects.map((project) => <Card props={project} key={project.title} />) }
+          </div>
+          <div className="language">
+            <LanguageSwitcher locale={locale} text={currentLanguage}/>
           </div>
         </div>
       </section>
-      <LanguageSwitcher locale={locale} text={currentLanguage}/>
     </div>
   );
 }
