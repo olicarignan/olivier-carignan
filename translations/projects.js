@@ -1,90 +1,96 @@
 const projects = {
     en: [
         {
+          title: "Plank",
+          description: "Wordpress CMS with custom blocks and with framer motion and GSAP animations.",
+          url: "https://plank.co"
+        },
+        {
+          title: "Ford's Theatre",
+          description: "Wordpress CMS with custom blocks and Tessitura CORS integration.",
+          url: "https://fords.org"
+        },
+        {
           title: "Large Tech Company (under NDA)",
-          description: "React, Typescript, Laravel, GSAP",
+          description: "Archive of past and current design standards with fully custom CMS, multiple webapps and interactive landing pages.",
           url: null,
-          date: "2020 - WIP"
         },
         {
           title: "POP Montreal",
-          description: "Headless Wordpress, Next.js & GraphQL",
+          description: "Statically generated headless wordpress site with static generation and incremental regeneration. ",
           url: "https://popmontreal.com",
-          date: "2021"
         },
         {
           title: "Pressbooks",
-          description: "Made almost entirely using Gutenberg blocks",
+          description: "Wordpress CMS with modular and reusable custom blocks.",
           url: "https://pressbooks.com",
-          date: "2021"
         },
         {
-          title: 'Plank',
-          description: "Wordpress CMS",
+          title: 'Plank (old site)',
+          description: "Wordpress CMS.",
           url: "https://plank.co",
-          date: "2020"
         },
         {
           title: 'Evenko',
-          description: 'Laravel Nova, Laravel Blade, React',
+          description: 'Custom CMS.',
           url: 'https://evenko.ca',
-          date: '2020 - WIP'
         },
         {
-          title: "Web Accessibility Study",
-          description: "Text",
+          title: "Article",
+          description: "Study on web accessibility standards.",
           url: 'https://medium.com/@oliviercarignan/the-role-of-ux-designers-in-web-accessibility-760725516ee5',
-          date: '2019'
         },
         {
           title: 'inSight',
-          description: 'React, Node, Express',
+          description: 'Event scheduling and note taking webapp.',
           url: 'https://github.com/olicarignan/inSight',
-          date: '2019'
         }
     ],
     fr: [
         {
+          title: "Plank",
+          description: "CMS Wordpress avec blocs custom and et des animations utilisant framer motion et GSAP.",
+          url: "https://plank.co"
+        },
+        {
+          title: "Ford's Theatre",
+          description: "CMS Wordpress avec blocs custom et intégration de Tessitura CORS.",
+          url: "https://fords.org"
+        },
+        {
           title: "Grande compagnie d'éléctronique (sous NDA)",
-          description: "React, Typescript, Laravel, GSAP",
+          description: "Archive de standards de design avec CMS fait sur mesure, plusieurs applications web et pages interactives.",
           url: null,
-          date: "2020 - WIP"
         },
         {
           title: "POP Montréal",
-          description: "Headless Wordpress, Next.js & GraphQL",
+          description: "Site headless Wordpress généré statiquement avec regénération incrémentale.",
           url: "https://popmontreal.com",
-          date: "2021"
         },
         {
           title: "Pressbooks",
-          description: "Fait presque exclusivement avec les blocks Gutenberg",
+          description: "CMS Wordpress avec blocs custom modulaires et réutilisables.",
           url: "https://pressbooks.com",
-          date: "2021"
         },
         {
           title: 'Plank',
           description: "CMS Wordpress",
           url: "https://plank.co",
-          date: "2020"
         },
         {
-          title: 'Evenko (WIP)',
-          description: 'Laravel Nova, Laravel Blade, React',
+          title: 'Evenko',
+          description: 'CMS Custom.',
           url: 'https://evenko.ca',
-          date: '2020 - WIP'
         },
         {
-          title: "Étude sur l'accessibilité",
-          description: "Texte",
+          title: "Article",
+          description: "Étude sur les standards d'accessibilité.",
           url: 'https://medium.com/@oliviercarignan/the-role-of-ux-designers-in-web-accessibility-760725516ee5',
-          date: '2019'
         },
         {
           title: 'inSight',
-          description: 'React, Node, Express',
+          description: 'Application web pour prendre des notes et planifier des événements.',
           url: 'https://github.com/olicarignan/inSight',
-          date: '2019'
         }
     ]
 }

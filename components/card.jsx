@@ -1,26 +1,34 @@
-export default function Card ({props}) {
+export default function Card ({project}) {
 
-    if (!props.url) {
+    if (!project.url) {
         return (
-            <div className="project border-t p-3 py-6 gap-8 border-grey dark:border-white flex justify-between items-center" key={props.title}>
-                <p className="text-2xl">{props.date}</p>
-                <div className="project-text mx-8 flex items-center">
-                    <p className="project-title font-bold text-3xl flex items-center font-interBold">{props.title}</p><span className="line mx-4">—</span><span className="font-normal text-2xl">{props.description}</span>
+            <div className="project">
+                <div className="project__wrap">
+                    <div className="project__title">
+                        <p>{project.title}</p>
+                        <div className="project__arrow font-bold">&#x2197;</div>
+                    </div>
+                    <div className="project__description">
+                        <p>{project.description}</p>
+                    </div>
                 </div>
-                <div className="project-arrow font-bold opacity-0">&#x2197;</div>
             </div>
         )
     }
 
     return (
-        <a href={props.url} target="_blank" rel="noopener noreferrer" aria-label={props.title} key={props.title}>
-            <div className="project border-t p-3 py-6 gap-8 border-grey dark:border-white flex justify-between items-center">
-                <p className="text-2xl">{props.date}</p>
-                <div className="project-text mx-8 flex items-center">
-                    <p className="project-title font-bold text-3xl flex items-center font-interBold">{props.title}</p><span className="line mx-4">—</span><span className="font-normal text-2xl">{props.description}</span>
+        <div className="project">
+            <a href={project.url} target="_blank" rel="noopener noreferrer" aria-label={project.title} key={project.title}>
+                <div className="project__wrap">
+                    <div className="project__title">
+                        <p>{project.title}</p>
+                        <div className="project__arrow font-bold">&#x2197;</div>
+                    </div>
+                    <div className="project__description">
+                        <p>{project.description}</p>
+                    </div>
                 </div>
-                <div className="project-arrow font-bold">&#x2197;</div>
-            </div>
-        </a>
+            </a>
+        </div>
     )
 }

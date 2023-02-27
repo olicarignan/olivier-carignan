@@ -1,0 +1,24 @@
+.split-container {
+    padding: 1rem 0 3rem;
+    display: flex;
+    justify-content: space-between;
+
+    .right {
+        width: 70%;
+
+        @media only screen and (min-width: 767px) {
+            width: 65%;
+        }
+
+        &--list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &--tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.project {
+    padding: 1rem 0;
+
+    &__title {
+        display: flex;
+        align-items: center;
+
+        > p {
+            font-weight: 600;
+            margin-bottom: 0.2em;
+        }
+    }
+
+    &__arrow {
+        margin-left: 1rem;
+        display: none;
+    }
+
+    &:hover {
+
+        .project__arrow {
+            display: block;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        border-bottom: 1px solid #1b191f;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        border-bottom: 1px solid #fffff9;
+
+        &:hover {
+            color: blue;
+        }
+    }
+
+    &:first-child {
+        padding-top: 0;
+    }
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
