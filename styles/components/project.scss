@@ -26,16 +26,21 @@
     @media (prefers-color-scheme: light) {
         border-bottom: 1px solid #1b191f;
 
-        &:hover {
-            color: red;
+        &:not(.project--no-hover) {
+            &:hover {
+                color: red;
+            }
         }
+
     }
 
     @media (prefers-color-scheme: dark) {
         border-bottom: 1px solid #fffff9;
 
-        &:hover {
-            color: blue;
+        &:not(.project--no-hover) {
+            &:hover {
+                color: blue;
+            }
         }
     }
 

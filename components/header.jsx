@@ -1,3 +1,5 @@
+import LanguageSwitcher from "./languageSwitcher"
+
 export default function Header({currentLanguage, locale}) {
 
     return (
@@ -13,6 +15,7 @@ export default function Header({currentLanguage, locale}) {
                         <p>github.com/olicarignan</p>
                         <p>🌐</p>
                     </a>
+                    <LanguageSwitcher text={currentLanguage} />
                 </div>
             </div>
         </section>

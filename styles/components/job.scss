@@ -1,0 +1,43 @@
+.job {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+
+    @media only screen and (min-width: 767px) {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+    }
+
+    &__position {
+        margin-bottom: 0.2em;
+
+        @media only screen and (min-width: 767px) {
+            margin-bottom: 0;
+        }
+    }
+
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__time {
+        text-align: end;
+    }
+
+    @media (prefers-color-scheme: light) {
+        border-bottom: 1px solid #1b191f;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        border-bottom: 1px solid #fffff9;
+    }
+
+    &:first-child {
+        padding-top: 0;
+    }
+
+    &:last-child {
+        border-bottom: none;
+    }
+}

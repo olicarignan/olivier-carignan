@@ -5,7 +5,7 @@ export default function LanguageSwitcher({text}) {
     return (
         <Link href="/" locale={text.locale}>
             <a aria-label={text.localeAria}>
-                <p className="text-2xl">
+                <p className="lang">
                     {text.localeCap}
                 </p>
             </a>

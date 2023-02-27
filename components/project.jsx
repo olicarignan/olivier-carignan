@@ -1,12 +1,11 @@
-export default function Card ({project}) {
+export default function Project ({project}) {
 
     if (!project.url) {
         return (
-            <div className="project">
+            <div className="project project--no-hover">
                 <div className="project__wrap">
                     <div className="project__title">
                         <p>{project.title}</p>
-                        <div className="project__arrow font-bold">&#x2197;</div>
                     </div>
                     <div className="project__description">
                         <p>{project.description}</p>

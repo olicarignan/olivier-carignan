@@ -252,7 +252,21 @@ p a {
 }
 
 a {
-    transition: 0.2s ease-in;
+    text-decoration: none;
+
+    @media (prefers-color-scheme: light) {
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+
+        &:hover {
+            color: blue;
+        }
+    }
 }
 
 // General
@@ -260,23 +274,6 @@ a {
 p {
     margin: 0;
     font-size: 2rem;
-    line-height: 3rem;
-    // letter-spacing: -0.02em;
-}
-
-small,
-caption,
-.small-text,
-.catpion {
-    font-size: 1.8rem;
-    line-height: 2.7rem;
-    letter-spacing: -1.5px;
-}
-
-.large-text {
-    font-size: 3.6rem;
-    line-height: 4.8rem;
-    letter-spacing: -3px;
 }
 
 i,

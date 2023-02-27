@@ -9,7 +9,9 @@ const text = {
         aboutText: "Frontend developer and web designer. I specialize in creating beautiful, accessible and user-friendly web applications while respecting the highest standards of UX practices. I am a native French speaker and am fluent in English.",
         expertise: "Expertise",
         expertiseText: ["React", "Next.js", "GraphQL", "Apollo client", "Wordpress", "Laravel", "PHP", "GSAP", "Framer motion", "SCSS", "Semantic HTML", "Node.js", "Figma", "UX design", "Interaction design", "A11y", "Illustrator"],
-        projects: "Projects"
+        projects: "Projects",
+        work: "Work",
+        studies: "Studies"
     },
     fr: {
         intro: "Développeur Front-end & Designer UX",
@@ -21,7 +23,9 @@ const text = {
         aboutText: "Développeur frontend and et designer web. Ma spécialité est de créer des des applications web qui sont visuellement intéressantes, accessibles et facile à utiliser tout en respectant les plus hauts standards de design UX. Ma langue maternelle est le Français et mon Anglais est excellent.",
         expertise: "Expertise",
         expertiseText: ["React", "Next.js", "GraphQL", "Apollo client", "Wordpress", "Laravel", "PHP", "GSAP", "Framer motion", "SCSS", "Semantic HTML", "Node.js", "Figma", "UX design", "Interaction design", "A11y", "Illustrator"],
-        projects: "Projets"
+        projects: "Projets",
+        work: "Emplois",
+        studies: "Études"
     }
 }
 
