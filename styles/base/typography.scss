@@ -257,14 +257,14 @@ a {
     @media (prefers-color-scheme: light) {
 
         &:hover {
-            color: red;
+            color: blue;
         }
     }
 
     @media (prefers-color-scheme: dark) {
 
         &:hover {
-            color: blue;
+            color: red;
         }
     }
 }

@@ -28,10 +28,9 @@
 
         &:not(.project--no-hover) {
             &:hover {
-                color: red;
+                color: blue;
             }
         }
-
     }
 
     @media (prefers-color-scheme: dark) {
@@ -39,7 +38,7 @@
 
         &:not(.project--no-hover) {
             &:hover {
-                color: blue;
+                color: red;
             }
         }
     }
