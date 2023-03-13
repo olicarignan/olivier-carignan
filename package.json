@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.11",
     "dart-sass": "^1.25.0",
     "gsap": "^3.11.4",
     "matter-js": "^0.18.0",

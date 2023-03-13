@@ -2,6 +2,7 @@ import 'tailwindcss/tailwind.css'
 import "../styles/main.scss";
 import text from '../translations/text';
 import { useRouter } from 'next/router';
+import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
@@ -27,6 +28,7 @@ function MyApp({ Component, pageProps }) {
       <div className="container__outer dark:bg-grey dark:text-white font-helveticaNow">
         <Component {...pageProps} />
       </div>
+      <Analytics/>
     </>
   );
 }
