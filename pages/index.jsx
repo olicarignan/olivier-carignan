@@ -1,10 +1,12 @@
 import { useRouter } from 'next/router';
+
 import projects from "../translations/projects";
 import text from "../translations/text";
 import jobs from '../translations/jobs';
 import studies from "../translations/studies";
 
 import Header from '../components/header';
+import NewHeader from '../components/newHeader';
 import Project from "../components/project"
 import Job from '../components/job';
 import Study from '../components/study';
@@ -21,7 +23,8 @@ export default function Home() {
   return (
     <div className="container mx-auto px-6">
 
-      <Header currentLanguage={currentLanguage} />
+      {/* <Header currentLanguage={currentLanguage} /> */}
+      <NewHeader currentLanguage={currentLanguage} />
 
       <section className="body">
         <div className="body__wrap">
