@@ -1,9 +1,14 @@
 const jobs = {
     en: [
         {
+            position: "UX / UI Developer",
+            job: "ARC Group Benefits",
+            time: "2023 — present"
+        },
+        {
             position: "Frontend developer",
             job: "Plank",
-            time: "2019 — present"
+            time: "2019 — 2023"
         },
         {
             position: "Graphic designer",
@@ -18,9 +23,14 @@ const jobs = {
     ],
     fr: [
         {
+            position: "Développeur UX / UI",
+            job: "ARC Group Benefits",
+            time: "2023 — présent"
+        },
+        {
             position: "Développeur Frontend",
             job: "Plank",
-            time: "2019 — présent"
+            time: "2019 — 2023"
         },
         {
             position: "Designer graphique",

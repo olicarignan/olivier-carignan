@@ -1,6 +1,11 @@
 const studies = {
     en: [
         {
+            title: "Web accessibility specialist",
+            school: "IAAP",
+            year: "2022"
+        },
+        {
             title: "Web development bootcamp",
             school: "Lighthouse Labs",
             year: "2019"
@@ -17,6 +22,11 @@ const studies = {
         },
     ],
     fr: [
+        {
+            title: "Spécialiste en accessibilité erb",
+            school: "IAAP",
+            year: "2022"
+        },
         {
             title: "Bootcamp développement web",
             school: "Lighthouse Labs",

@@ -1,6 +1,11 @@
 const projects = {
     en: [
         {
+          title: "ARC Connect",
+          description: "Built a new design system as well a soft rebrand for the company. Currently in the process of building a mobile app.",
+          url: null
+        },
+        {
           title: "Plank",
           description: "Wordpress CMS with custom blocks and with framer motion and GSAP animations.",
           url: "https://plank.co"
@@ -47,6 +52,11 @@ const projects = {
         }
     ],
     fr: [
+        {
+          title: "ARC Connect",
+          description: "Nouvelle image de marque ainsi qu'un nouveau Design System pour la compagnie. Présentement en processus de construire une application mobile.",
+          url: null
+        },
         {
           title: "Plank",
           description: "CMS Wordpress avec blocs custom and et des animations utilisant framer motion et GSAP.",
