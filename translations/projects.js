@@ -1,19 +1,29 @@
 const projects = {
     en: [
         {
-          title: "ARC Connect",
-          description: "Built a new design system as well a soft rebrand for the company. Currently in the process of building a mobile app.",
+          title: "NOT AN AD",
+          description: "Full brand guidelines and website for New-York based creative agency. Full site currently in development.",
+          url: "https://notanad.us"
+        },
+        {
+          title: "RTINGS.com",
+          description: "New digital presence for a leading TV and monitor review site. Currently in development.",
+          url: "https://rtings.com"
+        },
+        {
+          title: "Rattle",
+          description: "A website for an independent poetry magazine. Built with Next.js, Wordpress and Woocommerce.",
+          url: "https://rattle.com"
+        },
+        {
+          title: "ARC Health",
+          description: "Mobile application and new brand identity for a health insurance company, currently in development.",
           url: null
         },
         {
           title: "Plank",
           description: "Wordpress CMS with custom blocks and with framer motion and GSAP animations.",
           url: "https://plank.co"
-        },
-        {
-          title: "Ford's Theatre",
-          description: "Wordpress CMS with custom blocks and Tessitura CORS integration.",
-          url: "https://fords.org"
         },
         {
           title: "Large Tech Company (under NDA)",
@@ -26,16 +36,6 @@ const projects = {
           url: "https://popmontreal.com",
         },
         {
-          title: "Pressbooks",
-          description: "Wordpress CMS with modular and reusable custom blocks.",
-          url: "https://pressbooks.com",
-        },
-        {
-          title: 'Plank (old site)',
-          description: "Wordpress CMS.",
-          url: "https://plank.co",
-        },
-        {
           title: 'Evenko',
           description: 'Custom CMS.',
           url: 'https://evenko.ca',
@@ -45,27 +45,32 @@ const projects = {
           description: "Study on web accessibility standards.",
           url: 'https://medium.com/@oliviercarignan/the-role-of-ux-designers-in-web-accessibility-760725516ee5',
         },
-        {
-          title: 'inSight',
-          description: 'Event scheduling and note taking webapp.',
-          url: 'https://github.com/olicarignan/inSight',
-        }
     ],
     fr: [
         {
-          title: "ARC Connect",
-          description: "Nouvelle image de marque ainsi qu'un nouveau Design System pour la compagnie. Présentement en processus de construire une application mobile.",
+          title: "NOT AN AD",
+          description: "Indentité de marque complète et site web pour une agence créative basée à New-York. Site complet actuellement en développement.",
+          url: "https://notanad.us"
+        },
+        {
+          title: "RTINGS.com",
+          description: "Nouvelle présence numérique pour un site de référence sur les téléviseurs et moniteurs. Actuellement en développement.",
+          url: "https://rtings.com"
+        },
+        {
+          title: "Rattle",
+          description: "Site web pour un magazine de poésie indépendant. Fait avec Next.js, Wordpress et Woocommerce.",
+          url: "https://rattle.com"
+        },
+        {
+          title: "ARC Health",
+          description: "Application mobile et nouvelle identité de marque pour une compagnie d'assurance santé, actuellement en développement.",
           url: null
         },
         {
           title: "Plank",
           description: "CMS Wordpress avec blocs custom and et des animations utilisant framer motion et GSAP.",
           url: "https://plank.co"
-        },
-        {
-          title: "Ford's Theatre",
-          description: "CMS Wordpress avec blocs custom et intégration de Tessitura CORS.",
-          url: "https://fords.org"
         },
         {
           title: "Grande compagnie d'éléctronique (sous NDA)",
@@ -78,16 +83,6 @@ const projects = {
           url: "https://popmontreal.com",
         },
         {
-          title: "Pressbooks",
-          description: "CMS Wordpress avec blocs custom modulaires et réutilisables.",
-          url: "https://pressbooks.com",
-        },
-        {
-          title: 'Plank',
-          description: "CMS Wordpress",
-          url: "https://plank.co",
-        },
-        {
           title: 'Evenko',
           description: 'CMS Custom.',
           url: 'https://evenko.ca',
@@ -96,11 +91,6 @@ const projects = {
           title: "Article",
           description: "Étude sur les standards d'accessibilité.",
           url: 'https://medium.com/@oliviercarignan/the-role-of-ux-designers-in-web-accessibility-760725516ee5',
-        },
-        {
-          title: 'inSight',
-          description: 'Application web pour prendre des notes et planifier des événements.',
-          url: 'https://github.com/olicarignan/inSight',
         }
     ]
 }
