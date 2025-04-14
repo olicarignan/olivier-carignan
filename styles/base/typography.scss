@@ -1,293 +1,246 @@
+// MONUMENT THIN
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-ThinIta.eot');
-    src: local('Helvetica Now Display Thin Ita'), local('HelveticaNowDisplay-ThinIta'),
-        url('../../assets/fonts/HelveticaNowDisplay-ThinIta.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-ThinIta.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-ThinIta.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-ThinIta.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-Thin");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-Thin.otf") format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Thin.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Thin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100;
 }
 
+// MONUMENT THIN ITALIC
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-Light.eot');
-    src: local('Helvetica Now Display Light'), local('HelveticaNowDisplay-Light'),
-        url('../../assets/fonts/HelveticaNowDisplay-Light.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-Light.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-Light.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-ThinItalic");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-ThinItalic.otf")
+      format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-ThinItalic.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-ThinItalic.woff2")
+      format("woff2");
+  font-style: italic;
+  font-weight: 100;
 }
 
+// MONUMENT LIGHT
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-BoldIta.eot');
-    src: local('Helvetica Now Display Bold Ita'), local('HelveticaNowDisplay-BoldIta'),
-        url('../../assets/fonts/HelveticaNowDisplay-BoldIta.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-BoldIta.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-BoldIta.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-BoldIta.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-Light");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-Light.otf") format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Light.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200;
 }
 
+// MONUMENT LIGHT ITALIC
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-RegIta.eot');
-    src: local('Helvetica Now Display Reg Ita'), local('HelveticaNowDisplay-RegIta'),
-        url('../../assets/fonts/HelveticaNowDisplay-RegIta.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-RegIta.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-RegIta.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-RegIta.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-LightItalic");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-LightItalic.otf")
+      format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-LightItalic.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-LightItalic.woff2")
+      format("woff2");
+  font-style: italic;
+  font-weight: 200;
 }
 
+// MONUMENT REG
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-ExtLtIta.eot');
-    src: local('Helvetica Now Display ExtLt Ita'), local('HelveticaNowDisplay-ExtLtIta'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtLtIta.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtLtIta.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtLtIta.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtLtIta.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-Regular");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-Regular.otf")
+      format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Regular.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
 }
 
+// MONUMENT REG ITALIC
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-MedIta.eot');
-    src: local('Helvetica Now Display Med Ita'), local('HelveticaNowDisplay-MedIta'),
-        url('../../assets/fonts/HelveticaNowDisplay-MedIta.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-MedIta.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-MedIta.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-MedIta.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-RegularItalic");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-RegularItalic.otf")
+      format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-RegularItalic.woff")
+      format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-RegularItalic.woff2")
+      format("woff2");
+  font-style: italic;
+  font-weight: 300;
 }
 
+// MONUMENT MEDIUM
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-ExtLt.eot');
-    src: local('Helvetica Now Display ExtLt'), local('HelveticaNowDisplay-ExtLt'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtLt.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtLt.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtLt.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtLt.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-Medium");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-Medium.otf")
+      format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Medium.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
 }
 
+// MONUMENT MEDIUM ITALIC
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-ExtBlk.eot');
-    src: local('Helvetica Now Display ExtBlk'), local('HelveticaNowDisplay-ExtBlk'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBlk.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBlk.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBlk.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBlk.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-MediumItalic");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-MediumItalic.otf")
+      format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-MediumItalic.woff")
+      format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-MediumItalic.woff2")
+      format("woff2");
+  font-style: italic;
+  font-weight: 400;
 }
 
+// MONUMENT BOLD
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-Bold.eot');
-    src: local('Helvetica Now Display Bold'), local('HelveticaNowDisplay-Bold'),
-        url('../../assets/fonts/HelveticaNowDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-Bold.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-Bold.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-Bold");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-Bold.otf") format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Bold.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
 }
 
+// MONUMENT BOLD ITALIC
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-ExtBdIta.eot');
-    src: local('Helvetica Now Display ExtBd Ita'), local('HelveticaNowDisplay-ExtBdIta'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBdIta.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBdIta.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBdIta.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBdIta.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-BoldItalic");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-BoldItalic.otf")
+      format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-BoldItalic.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-BoldItalic.woff2")
+      format("woff2");
+  font-style: italic;
+  font-weight: 500;
 }
 
+// MONUMENT HEAVY
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-Regular.eot');
-    src: local('Helvetica Now Display Regular'), local('HelveticaNowDisplay-Regular'),
-        url('../../assets/fonts/HelveticaNowDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-Regular.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-Regular.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-Heavy");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-Heavy.otf") format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Heavy.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Heavy.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
 }
 
+// MONUMENT HEAVY ITALIC
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-ExtBlkIta.eot');
-    src: local('Helvetica Now Display ExBlk It'), local('HelveticaNowDisplay-ExtBlkIta'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBlkIta.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBlkIta.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBlkIta.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtBlkIta.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-HeavyItalic");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-HeavyItalic.otf")
+      format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-HeavyItalic.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-HeavyItalic.woff2")
+      format("woff2");
+  font-style: italic;
+  font-weight: 600;
 }
 
+// MONUMENT BLACK
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-Thin.eot');
-    src: local('Helvetica Now Display Thin'), local('HelveticaNowDisplay-Thin'),
-        url('../../assets/fonts/HelveticaNowDisplay-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-Thin.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-Thin.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-Black");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-Black.otf") format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Black.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
 }
 
+// MONUMENT BLACK ITALIC
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-LightIta.eot');
-    src: local('Helvetica Now Display Light Ita'), local('HelveticaNowDisplay-LightIta'),
-        url('../../assets/fonts/HelveticaNowDisplay-LightIta.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-LightIta.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-LightIta.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-LightIta.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-BlackItalic");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-BlackItalic.otf")
+      format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-BlackItalic.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-BlackItalic.woff2")
+      format("woff2");
+  font-style: italic;
+  font-weight: 700;
 }
 
+// MONUMENT ULTRA
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-ExtraBold.eot');
-    src: local('Helvetica Now Display ExtBd'), local('HelveticaNowDisplay-ExtraBold'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtraBold.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-Ultra");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-Ultra.otf") format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Ultra.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-Ultra.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
 }
 
+// MONUMENT ULTRA ITALIC
 @font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-Medium.eot');
-    src: local('Helvetica Now Display Medium'), local('HelveticaNowDisplay-Medium'),
-        url('../../assets/fonts/HelveticaNowDisplay-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-Medium.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-Medium.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-HairlineI.eot');
-    src: local('Helvetica Now Display Hairline'), local('HelveticaNowDisplay-HairlineI'),
-        url('../../assets/fonts/HelveticaNowDisplay-HairlineI.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-HairlineI.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-HairlineI.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-HairlineI.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-BlackIta.eot');
-    src: local('Helvetica Now Display Black Ita'), local('HelveticaNowDisplay-BlackIta'),
-        url('../../assets/fonts/HelveticaNowDisplay-BlackIta.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-BlackIta.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-BlackIta.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-BlackIta.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-Black.eot');
-    src: local('Helvetica Now Display Black'), local('HelveticaNowDisplay-Black'),
-        url('../../assets/fonts/HelveticaNowDisplay-Black.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-Black.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-Black.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('../../assets/fonts/HelveticaNowDisplay-Hairline.eot');
-    src: local('Helvetica Now Display Hairline'), local('HelveticaNowDisplay-Hairline'),
-        url('../../assets/fonts/HelveticaNowDisplay-Hairline.eot?#iefix') format('embedded-opentype'),
-        url('../../assets/fonts/HelveticaNowDisplay-Hairline.woff2') format('woff2'),
-        url('../../assets/fonts/HelveticaNowDisplay-Hairline.woff') format('woff'),
-        url('../../assets/fonts/HelveticaNowDisplay-Hairline.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
+  font-family: "Monument Grotesk";
+  src: local("ABCMonmuentGrotesk-UltraItalic");
+  src: url("../../assets/fonts/ABCMonumentGrotesk-UltraItalic.otf")
+      format("opentype"),
+    url("../../assets/fonts/ABCMonumentGrotesk-UltraItalic.woff") format("woff"),
+    url("../../assets/fonts/ABCMonumentGrotesk-UltraItalic.woff2")
+      format("woff2");
+  font-style: italic;
+  font-weight: 800;
 }
 
 p {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 p a {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .ascii-art {
-    font-family: monospace;
-    white-space: pre;
+  font-family: monospace;
+  white-space: pre;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 
-    @media (prefers-color-scheme: light) {
-
-        &:hover {
-            color: blue;
-        }
+  @media (prefers-color-scheme: light) {
+    &:hover {
+      color: blue;
     }
+  }
 
-    @media (prefers-color-scheme: dark) {
-
-        &:hover {
-            color: red;
-        }
+  @media (prefers-color-scheme: dark) {
+    &:hover {
+      color: red;
     }
+  }
 }
 
 // General
 // -------------------------------------------------------------------------------
 p {
-    margin: 0;
-    font-size: 2rem;
+  margin: 0;
+  font-size: 2rem;
 }
 
 i,
 em {
-    font-style: italic;
+  font-style: italic;
 }
 
-
 del {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 // Headings
@@ -298,38 +251,38 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 600;
-    margin: 0;
+  font-weight: 600;
+  margin: 0;
 
-    a {
-        font-size: inherit;
-        line-height: inherit;
-        color: inherit;
-        letter-spacing: inherit;
-        font-weight: inherit;
-    }
+  a {
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+  }
 }
 
 h1 {
-    font-size: 4.8rem;
+  font-size: 4.8rem;
 }
 
 h2 {
-    font-size: 3.7rem;
+  font-size: 3.7rem;
 }
 
 h3 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 h4 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 h5 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 h6 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }

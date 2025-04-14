@@ -10,7 +10,7 @@ module.exports = {
       white: "#fffff9",
     },
     fontFamily: {
-      helveticaNow: ["Helvetica Now Display"],
+      MonumentGrotesk: ["Monument Grotesk", "sans-serif"],
     },
   },
   variants: {

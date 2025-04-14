@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:url" content="https://www.oliviercarignan.dev" />
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💿</text></svg>"/>
       </Head>
-      <div className="container__outer dark:bg-grey dark:text-white font-helveticaNow">
+      <div className="container__outer dark:bg-grey dark:text-white font-monumentGrotesk">
         <Component {...pageProps} />
       </div>
       <Analytics/>
