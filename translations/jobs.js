@@ -1,12 +1,17 @@
 const jobs = {
     en: [
         {
-            position: "UX / UI Developer",
-            job: "ARC Group Benefits",
+            position: "Co-Founder & Product Lead",
+            job: "Brunch",
             time: "2023 — present"
         },
         {
-            position: "Frontend developer",
+            position: "Lead Product Designer",
+            job: "ARC Group Benefits",
+            time: "2023 — 2024"
+        },
+        {
+            position: "UX UI Engineer",
             job: "Plank",
             time: "2019 — 2023"
         },
@@ -23,12 +28,17 @@ const jobs = {
     ],
     fr: [
         {
-            position: "Développeur UX / UI",
-            job: "ARC Group Benefits",
+            position: "Co-Fondateur & Responsable Produit",
+            job: "Brunch",
             time: "2023 — présent"
         },
         {
-            position: "Développeur Frontend",
+            position: "Designer Produit Senior",
+            job: "ARC Group Benefits",
+            time: "2023 — 2024"
+        },
+        {
+            position: "Ingénieur UX UI",
             job: "Plank",
             time: "2019 — 2023"
         },
