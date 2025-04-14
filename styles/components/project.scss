@@ -1,53 +1,59 @@
 .project {
-    padding: 1rem 0;
+  padding: 1rem 0;
 
-    &__title {
-        display: flex;
-        align-items: center;
+  &__title {
+    display: flex;
 
-        > p {
-            font-weight: 600;
-            margin-bottom: 0.2em;
-        }
+    > p {
+      font-weight: 400;
+      margin-bottom: 0.2em;
+
+      @media only screen and (min-width: 767px) {
+        font-weight: 600;
+      }
     }
+  }
 
-    &__arrow {
-        margin-left: 1rem;
-        display: none;
+  &__arrow {
+    margin-left: 1rem;
+    display: none;
+  }
+
+  &:hover {
+    .project__arrow {
+      display: block;
     }
+  }
 
-    &:hover {
+  &__description {
+    opacity: 70%;
+  }
 
-        .project__arrow {
-            display: block;
-        }
+  @media (prefers-color-scheme: light) {
+    border-bottom: 1px solid #1b191f;
+
+    &:not(.project--no-hover) {
+      &:hover {
+        color: blue;
+      }
     }
+  }
 
-    @media (prefers-color-scheme: light) {
-        border-bottom: 1px solid #1b191f;
+  @media (prefers-color-scheme: dark) {
+    border-bottom: 1px solid #fffff9;
 
-        &:not(.project--no-hover) {
-            &:hover {
-                color: blue;
-            }
-        }
+    &:not(.project--no-hover) {
+      &:hover {
+        color: red;
+      }
     }
+  }
 
-    @media (prefers-color-scheme: dark) {
-        border-bottom: 1px solid #fffff9;
+  &:first-child {
+    padding-top: 0;
+  }
 
-        &:not(.project--no-hover) {
-            &:hover {
-                color: red;
-            }
-        }
-    }
-
-    &:first-child {
-        padding-top: 0;
-    }
-
-    &:last-child {
-        border-bottom: none;
-    }
+  &:last-child {
+    border-bottom: none;
+  }
 }

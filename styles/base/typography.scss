@@ -196,6 +196,7 @@
 
 p {
   font-weight: 400;
+  font-size: 2rem;
 }
 
 p a {
@@ -227,7 +228,6 @@ a {
 // -------------------------------------------------------------------------------
 p {
   margin: 0;
-  font-size: 2rem;
 }
 
 i,
@@ -264,11 +264,19 @@ h6 {
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-size: 4rem;
+
+  @media only screen and (min-width: 767px) {
+    font-size: 4.8rem;
+  }
 }
 
 h2 {
-  font-size: 3.7rem;
+  font-size: 3.2rem;
+
+  @media screen and (min-width: 767px) {
+    font-size: 3.6rem;
+  }
 }
 
 h3 {

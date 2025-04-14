@@ -25,36 +25,30 @@ export default function Home() {
 
       <section className="body">
         <div className="body__wrap">
-          <div className="border-t border-grey dark:border-white">
-
-            <section className="about split-container border-b border-grey dark:border-white">
-              <p>{currentLanguage.about}</p>
-              <p className='right'>{currentLanguage.aboutText}</p>
+            <section className="about split-container">
+              <h2>{currentLanguage.about}</h2>
+              <article className='right'>{currentLanguage.aboutText}</article>
             </section>
 
-            <section className="expertise split-container border-b border-grey dark:border-white">
-              <p>{currentLanguage.expertise}</p>
-              <p className='right right--tags'>{currentLanguage.expertiseText.map((expertise) => <span>{expertise}</span>)}</p>
+            <section className="expertise split-container">
+              <h2>{currentLanguage.expertise}</h2>
+              <article className='right right--tags'>{currentLanguage.expertiseText.map((expertise) => <span>{expertise}</span>)}</article>
             </section>
 
-            <section className="projects split-container border-b border-grey dark:border-white">
-              <p>{currentLanguage.projects}</p>
+            <section className="projects split-container">
+              <h2>{currentLanguage.projects}</h2>
               <div className='right right--list'>{translatedProjects.map((project) => <Project project={project} key={project.title} />)}</div>
             </section>
 
-            <section className="work split-container border-b border-grey dark:border-white">
-              <p>{currentLanguage.work}</p>
+            <section className="work split-container">
+              <h2>{currentLanguage.work}</h2>
               <div className='right right--list'>{translatedJobs.map((job) => <Job job={job} key={job.position} />)}</div>
             </section>
 
             <section className="studies split-container">
-              <p>{currentLanguage.studies}</p>
+              <h2>{currentLanguage.studies}</h2>
               <div className='right right--list'>{translatedStudies.map((study) => <Study study={study} key={study.title} />)}</div>
             </section>
-
-          </div>
-          <div className="language">
-          </div>
         </div>
       </section>
     </div>

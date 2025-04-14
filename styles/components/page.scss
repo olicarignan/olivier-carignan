@@ -1,31 +1,79 @@
 .split-container {
-    padding: 1rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  @media only screen and (min-width: 767px) {
+    flex-direction: row;
+    padding: 0.8rem 0 3rem;
 
     @media only screen and (min-width: 767px) {
-        flex-direction: row;
-        padding: 1rem 0 3rem;
+      @media (prefers-color-scheme: light) {
+        border-top: 1px solid #1b191f;
+      }
+      @media (prefers-color-scheme: dark) {
+        border-top: 1px solid #fffff9;
+      }
+    }
+  }
+
+  .right {
+    padding: 1rem 0;
+    margin: 1rem 0;
+    font-size: 2rem;
+
+    @media (prefers-color-scheme: light) {
+      border-top: 1px solid #1b191f;
+    }
+    @media (prefers-color-scheme: dark) {
+      border-top: 1px solid #fffff9;
+    }
+
+    @media only screen and (min-width: 767px) {
+      padding: 0;
+      margin: 0;
+      margin-top: 0;
+      width: 65%;
+      border: none;
+    }
+
+    &--list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &--tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  }
+}
+
+.about {
+  h2 {
+    display: none;
+  }
+
+  .right {
+    margin: 0 0 3rem;
+    border: none;
+  }
+
+  @media screen and (min-width: 767px) {
+    h2 {
+      display: block;
     }
 
     .right {
-        margin-top: 3rem;
-
-        @media only screen and (min-width: 767px) {
-            margin-top: 0;
-            width: 65%;
-        }
-
-        &--list {
-            display: flex;
-            flex-direction: column;
-        }
-
-        &--tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
+      margin: 0;
     }
+  }
 }
