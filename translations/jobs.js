@@ -16,7 +16,7 @@ const jobs = {
             time: "2019 — 2023"
         },
         {
-            position: "Graphic designer",
+            position: "Graphic Designer",
             job: "Freelance",
             time: "2014 — 2016"
         },
@@ -43,7 +43,7 @@ const jobs = {
             time: "2019 — 2023"
         },
         {
-            position: "Designer graphique",
+            position: "Designer Graphique",
             job: "Freelance",
             time: "2014 — 2016"
         },
